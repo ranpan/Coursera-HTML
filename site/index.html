@@ -1,9 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hello Ladies!</title>
+<!DOCTYPE html> <!--this declares the document to be interpreted using the html standard-->
+<html> <!--the code for the entire page appears within the html tag. this is rendered top to bottom by the browser-->
+<head> <!--the head tag contains items that describe the content of the page (metadata about the main content), like what character encoding should the browser use-->
+	<meta charset="utf-8"> <!--a meta tag that specifies the character set encoding of the web page-->
+	<title>Learning HTML</title> <!--a required meta tag. provides the browser tab label-->
 </head>
-<body>
-<h1>Hello Ladies! How are you tonight?</h1>
+<body> <!--the root of all content that is visible to the user-->
+<h1>"&lt;!doctype html&gt;" signifies that this page follows the html standard<br>
+this is a section in the page body<br>
+sublime is nice because when you type the first characters of a closing tag i.e. &lt;/<br>
+it automatically fills in the correct closing tag value<br>
+note that in order to get &lt; to show up i had to use the character string "&" "l" "t" ";"<br>
+of course these 4 characters are together with no spaces to make up an html 'entity'<br>
+one can get quite lost reading stack overflow, consider htmlspecialchars...for example<br>
+<br>
+Content Model<br>
+Block-Level Elements (flow content)<br>
+ - may contain other block level or inline elements<br>
+ - block level elements are displayed each on their own line in the browser<br>
+ <div>div (division) tag is the most generic block level element</div>
+ Inline Elements (phrasing content)<br>
+  - can only contain other inline elements<br>
+  <span>span tag is the most generic inline element</span>
+
+
+</h1>
 </body>
 </html>
